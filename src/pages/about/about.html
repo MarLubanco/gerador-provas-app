@@ -1,11 +1,42 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Criar Prova
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
 
+  Copy
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Enviar para Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Materia da Prova</label>
+      <select class="form-control" placeholder="Ex: Java, React, Angular" id="exampleFormControlSelect1">
+        <option>Java</option>
+        <option>ReactJs</option>
+        <option>Ruby</option>
+        <option>Cálculo Numérico</option>
+        <option>SQL</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Quantidade de Questões</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Descrição da Prova</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </form>
 </ion-content>
